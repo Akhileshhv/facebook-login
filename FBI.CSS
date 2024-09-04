@@ -1,0 +1,125 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Main container for the login page */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Left section styling */
+.left-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-section h1 {
+    color: #1877F2;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.left-section p {
+    font-size: 24px;
+    color: #1c1e21;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+/* Right section styling */
+.right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box {
+    width: 360px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.login-box button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877F2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.login-box button[type="submit"]:hover {
+    background-color: #165fc1;
+}
+
+.login-box a {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #1877F2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-box hr {
+    border: 0;
+    height: 1px;
+    background-color: #dddfe2;
+    margin: 20px 0;
+}
+
+.create-account {
+    width: 100%;
+    padding: 12px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
+
+.right-section p {
+    font-size: 14px;
+    color: #1c1e21;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.right-section p a {
+    color: #1877F2;
+    text-decoration: none;
+    font-weight: bold;
+}
